@@ -7,27 +7,21 @@
     "editor.guides.bracketPairs": true,
     "editor.renderWhitespace": "boundary",
     "editor.copyWithSyntaxHighlighting": false,
-
     // files
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-
     // workbench
     "workbench.commandPalette.history": 10,
-
     // explorer
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
     "search.defaultViewMode": "tree",
-
     // git
     "explorer.excludeGitIgnore": true,
-
     // markdown
     "markdown.preview.breaks": true,
-
     "[markdown]": {
         "editor.unicodeHighlight.ambiguousCharacters": false,
         "editor.unicodeHighlight.invisibleCharacters": false,
@@ -41,20 +35,21 @@
         "cSpell.fixSpellingWithRenameProvider": true,
         "cSpell.advanced.feature.useReferenceProviderWithRename": true,
         "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
-
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-  },
-
+    },
     "markdownlint.config": {
         "MD012": false,
         "MD024": false,
         "MD033": {
-            "allowed_elements": ["br", "ins"]
+            "allowed_elements": [
+                "br",
+                "ins"
+            ]
         },
         "MD036": false,
+        "MD041": false,
         "url": false
     },
-
     // --- my settings ---
     "window.density.editorTabHeight": "compact",
     "workbench.activityBar.location": "top",
@@ -62,7 +57,6 @@
     "workbench.editor.pinnedTabsOnSeparateRow": true,
     "workbench.editor.pinnedTabSizing": "shrink",
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?、。！？",
-
     // fonts
     // "editor.fontLigatures": true,
     // "editor.fontFamily": "'UDEV Gothic LG'",
