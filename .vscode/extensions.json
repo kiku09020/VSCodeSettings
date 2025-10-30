@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+        // base
+        "ms-ceintl.vscode-language-pack-ja",
+        "esbenp.prettier-vscode",
+        // git
+        "eamodio.gitlens",
+        // tools
+        "aprilandjan.ascii-tree-generator",
+        "hediet.vscode-drawio",
+        "streetsidesoftware.code-spell-checker",
+        "tomoki1207.pdf",
+        // utilities
+        "alefragnani.bookmarks",
+        "alefragnani.project-manager",
+        // markdown
+        "yzane.markdown-pdf",
+        // theme
+        "pkief.material-icon-theme",
+    ]
+}
