@@ -4,6 +4,8 @@
 
 ## 内容
 
+### Settings
+
 - VSCode
   - extensions.json
   - keybindings.json
@@ -11,3 +13,15 @@
   - tasks.json
 - GitHub Copilot
   - prompt.md
+
+### Profiles
+
+- profiles
+  - my-profile
+- snippets
+
+### Templates
+
+- templates
+  - folders
+    - work

@@ -2,7 +2,15 @@
 [
     {
         "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "",
         "command": "workbench.action.files.saveLocalFile"
+    },
+    {
+        "key": "",
+        "command": "workbench.action.files.saveAs"
     },
     // explorer
     {
