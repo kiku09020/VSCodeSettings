@@ -1,18 +1,23 @@
-// 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
+    // save all
     {
         "key": "ctrl+shift+s",
-        "command": "workbench.action.files.saveAll"
+        "command": "saveAll"
     },
     {
-        "key": "",
-        "command": "workbench.action.files.saveLocalFile"
+        "key": "ctrl+k s",
+        "command": "-saveAll"
     },
     {
-        "key": "",
+        "key": "ctrl+alt+s",
         "command": "workbench.action.files.saveAs"
     },
-    // explorer
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    // -------- explorer --------
+    // new file
     {
         "key": "ctrl+n",
         "command": "explorer.newFile"
@@ -21,6 +26,7 @@
         "key": "",
         "command": "workbench.action.files.newUntitledFile"
     },
+    // new folder
     {
         "key": "ctrl+shift+n",
         "command": "explorer.newFolder"
@@ -28,5 +34,24 @@
     {
         "key": "",
         "command": "workbench.action.newWindow"
+    },
+
+    // -------- extentions bindings --------
+    // paste url
+    {
+        "key": "ctrl+shift+V",
+        "command":"pasteURL.PasteURL"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "-pasteURL.PasteURL"
+    },
+    {
+        "key":"",
+        "command": "markdown.showPreview"
+    },
+    {
+        "key": "",
+        "command": "markdown-preview-enhanced.openPreview"
     }
 ]

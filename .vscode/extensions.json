@@ -14,7 +14,9 @@
         "alefragnani.bookmarks",
         "alefragnani.project-manager",
         // markdown
-        "yzane.markdown-pdf",
+        "shd101wyy.markdown-preview-enhanced",
+        "foam.foam-vscode",
+        "kukushi.pasteurl",
         // theme
         "pkief.material-icon-theme",
     ]

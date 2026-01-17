@@ -12,16 +12,10 @@
   - settings.json
   - tasks.json
 - GitHub Copilot
-  - prompt.md
+  - copilot-instructions.md
 
 ### Profiles
 
 - profiles
   - my-profile
 - snippets
-
-### Templates
-
-- templates
-  - folders
-    - work

@@ -1,5 +1,6 @@
 {
-    // editor
+    // -------- editor --------
+    "editor.insertSpaces": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.mouseWheelZoom": true,
@@ -7,20 +8,20 @@
     "editor.guides.bracketPairs": true,
     "editor.renderWhitespace": "boundary",
     "editor.copyWithSyntaxHighlighting": false,
-    // files
+    // -------- files --------
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    // workbench
+    // -------- workbench --------
     "workbench.commandPalette.history": 10,
-    // explorer
+    // -------- explorer --------
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
     "search.defaultViewMode": "tree",
-    // git
+    // -------- git --------
     "explorer.excludeGitIgnore": true,
-    // markdown
+    // -------- markdown --------
     "markdown.preview.breaks": true,
     "[markdown]": {
         "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -37,6 +38,7 @@
         "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
+    // linter
     "markdownlint.config": {
         "MD012": false,
         "MD024": false,
@@ -54,7 +56,25 @@
     "markdown.copyFiles.destination": {
         "*": "./attachments/${documentBaseName}.${fileExtName}"
     },
-    // --- my settings ---
+    // preview
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "markdown-preview-enhanced.previewColorScheme": "systemColorScheme",
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.mermaidTheme": "dark",
+    // -------- AI --------
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "json": false,
+        "jsonc": false,
+        "yaml": false,
+        "instructions": false
+    },
+
+    // -------- my settings --------
     "window.density.editorTabHeight": "compact",
     "workbench.activityBar.location": "top",
     "workbench.editor.tabSizing": "fixed",
