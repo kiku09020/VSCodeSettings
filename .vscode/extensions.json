@@ -14,9 +14,16 @@
         "alefragnani.bookmarks",
         "alefragnani.project-manager",
         // markdown
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
         "shd101wyy.markdown-preview-enhanced",
         "foam.foam-vscode",
+        "octop162.markdown-table-editor",
         "kukushi.pasteurl",
+        // csv
+        "mechatroner.rainbow-csv",
+        "janisdd.vscode-edit-csv",
+
         // theme
         "pkief.material-icon-theme",
     ]
