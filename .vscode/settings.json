@@ -4,7 +4,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.mouseWheelZoom": true,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.guides.bracketPairs": true,
     "editor.renderWhitespace": "boundary",
     "editor.copyWithSyntaxHighlighting": false,
@@ -13,14 +13,21 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     // -------- workbench --------
-    "workbench.commandPalette.history": 10,
+    "workbench.commandPalette.history": 16,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.wrapTabs": true,
     // -------- explorer --------
+    "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
     "explorer.confirmPasteNative": false,
     "search.defaultViewMode": "tree",
     // -------- git --------
     "explorer.excludeGitIgnore": true,
+    "git.pruneOnFetch": true,
+    "scm.alwaysShowRepositories": true,
     // -------- markdown --------
     "markdown.preview.breaks": true,
     "[markdown]": {
@@ -64,7 +71,7 @@
     "markdown-preview-enhanced.mermaidTheme": "dark",
     // -------- AI --------
     "github.copilot.enable": {
-        "*": true,
+        "*": false,     // toggle here
         "plaintext": false,
         "markdown": false,
         "scminput": false,
