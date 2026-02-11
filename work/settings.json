@@ -1,0 +1,16 @@
+{
+  // -------- editor --------
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 4, // 2 or 4
+  // -------- files --------
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  // -------- git --------
+  "git.pruneOnFetch": true,
+  // -------- prettier --------
+  "prettier.printWidth": 120
+}
